@@ -1,10 +1,11 @@
-# nodejs-docker
+# Nodejs Docker Container
 
 
 ## Building Docker container
 `
 docker build -t muriminjue/demoapp .
 `
+
 Tag "-t" to assign image a name tag
 Add "." or local file locations for where the app files are contained
 
@@ -13,4 +14,5 @@ Add "." or local file locations for where the app files are contained
 `
 docker run -p 5000:8000 
 `
+
 port order is local-port:docker-port
