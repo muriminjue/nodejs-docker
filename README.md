@@ -16,3 +16,6 @@ docker run -p 5000:8000
 `
 
 port order is local-port:docker-port
+
+## Docker compose 
+creates multiple containers ecessary for the same app
