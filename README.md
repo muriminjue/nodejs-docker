@@ -12,10 +12,10 @@ Add "." or local file locations for where the app files are contained
 
 ## Docker run command
 `
-docker run -p 5000:8000 
+docker run -p 5000:8000 {image name/id}
 `
-
-port order is local-port:docker-port
+The add the image name or id
+Port order is local-port:docker-port 
 
 ## Docker compose 
 creates multiple containers ecessary for the same app
